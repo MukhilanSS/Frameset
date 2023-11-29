@@ -1,0 +1,26 @@
+.top{
+  margin-top: 0%;
+  margin: 0px ;
+  border: 1px solid black;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+
+}
+.box{
+  width: 12%;
+  height: 100%;
+  border:2px black;
+  background-color: grey;
+  margin: 20px;
+  height: 400px;
+  padding:10px;
+}
+.button{
+background-color: transparent;
+}

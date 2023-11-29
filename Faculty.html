@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="rec.jpg">
+    <title>REC</title>
+    <link rel="stylesheet" href="recex4.css">
+    <script>
+      function fun1(){
+        document.getElementById("result").innerHTML="<h2>INTRODUCTION</h2><br><h4>Vision:</h4><br>To promote highly ethical and innovative computer professionals through excellence in teaching, training and research.<h4>Mission:</h4><li>To produce globally competent professionals, motivated to learn the emerging technologies and to be innovative in solving real world problems.</li><br><li>To promote research activities amongst the students and the members of faculty that could benefit the society.</li><br><li>To impart moral and ethical values in their profession.</li>";
+      }
+      function fun2(){
+        document.getElementById("result").innerHTML="<h2>OPPERTUNITIES</h2>Computer science and engineering graduates are the pillars of the current and emerging information era. Opportunities include pursuing Master of Science Programs in reputed Universities of U.S and Europe. and taking up research assignments in Hardware, System Software, Computer Engineering, Multimedia, Networking and Communication areas.<br><br>Computer science is a broad field with many different job paths to choose from. With so many options, it can be difficult to decide on a certain route to study and focus on. Even if mastering only one specific subject of interest in Computer Science is possible, it is necessary to acquire all of the fundamentals connected to other areas in order to implement and use that subject of interest. For example, when writing Server-side scripts, we must know how to obtain data from databases and/or perform HTTP requests to retrieve information/outputs from APIs, in addition to dealing with the Frontend elements and delivering accordingly. So, in order to use databases and retrieve data via APIs, we must first understand the fundamental ideas and applications.<br><br>Job opportunities are ever increasing and are varied in nature. System study, analysis, Design and Programming are the inherent phases in Application Development and each one of them provides enormous potential to the Computer Science and engineering graduates to shape their careers. Hi-end profiles include Machine Learning, Data Science, Artificial Intelligence, Robotics, Graphic Solutions and Simulations, Mobile Application Development, Automation etc., The doors of companies are always open for Software Developer, Full Stack Software Developer, Data Analyst ,Data Scientist, Database Administrator, Cyber Security Specialist, Data Engineer, Machine Learning Engineer etc., with a huge package.<br><br>This degree program prepares students for Advanced Technical Computer Systems Design and Development Work. It includes the study of basics with Data Science, Database Design, Data Communications, Procedural and Object Oriented Programming, Operating Systems Design, Algorithm Development and Applications of Artificial Intelligence. The curriculum includes basic course work in Electronics Technology and the Theory of Programming Languages. Students focus on developing computer-based solutions involving hardware and software components and integration. Graduates are qualified to work in a range of positions, from entry-level computer scientists and system engineers to project managers leading advanced applications of computer science to real-world problems. The department has since broadened its research strengths."
+      }
+
+      function fun3(){
+        document.getElementById("result").innerHTML = "<h2>FACULTY MEMBER</h2><table border=2 width=100% height=50%><th>No</th><th>Name of Facuty</th><th>Designation</th><tr><td>1</td><td>Dr. V. Murali Bhaskaran</td><td>Dean & Professor</td></tr><tr><td>2</td><td>Dr. Kumar P</td><td>Professor & Director (Alumni Affairs)</td></tr><tr><td>3</td><td>	Dr. Revathy P</td><td>Professor</td></tr></table>";
+      }
+
+      function fun4(){
+        document.getElementById("result").innerHTML="<h2>BOOK PUBLISHED</h2><ol><li>Data Structures- Mrs. P. Revathy</li> <li>Data Structures and Object Oriented Programming-Mrs. P. Revathy</li><li>Programming and Data Structures-I – Mrs. P.Revathy</li><li>Computer Programming –Dr.P.Kumar</li><li>Database Management Systems- Mr.S. Vinod Kumar</li></ol></ol>"
+      }
+      function fun5(){
+        document.getElementById("result").innerHTML="<h2><u>NEWS</u></h2><h4>RESEARCH CENTER</h4>The Department is recognized as a Research Centrer Fro M.S/PHD.By Anna University<h4>AFFLIATION</h4>The Department Has Permanaent AFFLIATION from ANNA UNIVERSITY"
+
+      }
+
+    </script>
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+      <div class="title">
+      <h1><u>RAJALAKSHMI ENGINEERING COLLEGE</u></h1>
+    <!-- </div> -->
+    <div class="subtitle">
+      <h2>Engineering College</h2>
+      <h3 class="address">Rajalakshmi Nagar, Thandalam, Chennai-602 105</h3>
+    </div>
+    </div>
+    <div class="container">
+    <div class="navbar">
+      <h2>CSE</h2>
+      <ul>
+        <li onclick="fun1()" id="intro">Introduction</li>
+        <li onclick="fun2()">Opportunities</li>
+        <li onclick="fun3()">Facaulty Members</li>
+        <li onclick="fun4()">Lab Facility</li>
+        <li onclick="fun5()">News</li>
+      </ul>
+   </div>
+   <!-- <h3 class="address">Rajalakshmi Nagar, Thandalam, Chennai-602 105</h3> -->
+   <div id="result"></div>
+   </div>
+
+
+
+  </body>
+</html>

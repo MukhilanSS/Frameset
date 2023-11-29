@@ -1,0 +1,31 @@
+/* .box{
+    border: 2px grey;
+    width: 250px;
+    background-color: grey;
+    margin: 20px;
+  height: 700px;
+} */
+
+.box a{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+ul{
+  list-style: none;
+  margin-top: 50px;
+}
+a,ul li a{
+  text-decoration: none;
+
+}
+ul li a:hover{
+  background: purple;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3C4157;
+}
